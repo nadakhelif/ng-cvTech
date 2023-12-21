@@ -1,0 +1,6 @@
+
+.colored-box {
+  border: 5px solid;
+  padding: 10px;
+  display: inline-block;
+}

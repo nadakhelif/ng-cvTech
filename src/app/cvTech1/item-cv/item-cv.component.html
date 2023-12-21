@@ -1,0 +1,10 @@
+<li *ngIf="personne" class="list-group-item"
+(click)="selectPersonne()"
+>
+    <img src="assets/images/{{personne.path}}"
+    width="80px"
+    height="80px"
+    alt="{{personne.name}}">
+    {{personne.name}} {{personne.firstName}}
+
+</li>
