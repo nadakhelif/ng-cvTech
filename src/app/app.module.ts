@@ -12,6 +12,9 @@ import { CvComponent } from './cvTech1/cv/cv.component';
 import { ListCvComponent } from './cvTech1/list-cv/list-cv.component';
 import { ItemCvComponent } from './cvTech1/item-cv/item-cv.component';
 import { DetailCvComponent } from './cvTech1/detail-cv/detail-cv.component';
+import { NavbarComponent } from './layout/navbar/navbar.component';
+import { ROUTING } from './app.routing';
+import { EmbaucheComponent } from './cvTech1/embauche/embauche.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,15 @@ import { DetailCvComponent } from './cvTech1/detail-cv/detail-cv.component';
     CvComponent,
     ListCvComponent,
     ItemCvComponent,
-    DetailCvComponent
+    DetailCvComponent,
+    NavbarComponent,
+    EmbaucheComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
